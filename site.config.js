@@ -16,7 +16,7 @@ const siteConfig = {
 
     // https://fontawesome.com/icons
     socials: [
-        {name: "email", url: "mailto:[lizhihao2022@gmail.com]", icon: faEnvelope},
+        {name: "email", url: "mailto:[180110606@stu.hit.edu.cn]", icon: faEnvelope},
         {name: "github", url: "https://github.com/lizhihao2022", icon: faGithub},
         {name: "google", url: "https://scholar.google.com/citations?hl=en&user=hDVWqfYAAAAJ", icon: faGraduationCap}
     ],
@@ -25,8 +25,6 @@ const siteConfig = {
         "biography",
         "publications",
     ],
-
-    publications: []
 }
 
 module.exports = siteConfig
