@@ -14,8 +14,9 @@ export default function Publication({ pubConfig }) {
                         <div className={styles.pub_title}>
                             <FontAwesomeIcon icon={faBookmark} />
                             &nbsp;
-                            <a href={pdf}>{title}</a>
-                            <a href={code}><FontAwesomeIcon icon={faFileCode} /></a>
+                            {title}
+                            {pdf && <a href={pdf}><FontAwesomeIcon icon={faFilePdf} /></a>}
+                            {code && <a href={code}><FontAwesomeIcon icon={faFileCode} /></a>}
                         </div>
                         <div className={styles.pub_des} dangerouslySetInnerHTML={{ __html: description }} />
                         <div className={styles.pub_author} dangerouslySetInnerHTML={{ __html: authors }} />
