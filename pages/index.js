@@ -67,3 +67,13 @@ export default function Home() {
     </div>
   )
 }
+
+export async function getStaticProps() {
+  const biography = await getPostData('biography')
+
+  return {
+      props: {
+          biography
+      }
+  }
+}
