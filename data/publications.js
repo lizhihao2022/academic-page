@@ -4,7 +4,7 @@ const publications = [
         authors: "Menglin Yang, Min Zhou, <b>Zhihao Li</b>, Jiahong Liu, Lujia Pan, Hui Xiong, Irwin King",
         description: "arXiv preprint arXiv:2202.13852",
         year: "2022",
-        pdf: "https://arxiv.org/pdf/2202.13852",
+        pdf: "https://arxiv.org/pdf/2202.13852",    // null or delete
         code: "https://github.com/marlin-codes/HGNNs",
         tag: []
     },
