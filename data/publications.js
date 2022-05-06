@@ -1,11 +1,20 @@
 const publications = [
     {
-        title: "Hyperbolic Graph Neural Networks: A Review of Methods and Applications",
-        authors: "Menglin Yang, Min Zhou, <b>Zhihao Li</b>, Jiahong Liu, Lujia Pan, Hui Xiong, Irwin King",
-        description: "arXiv preprint arXiv:2202.13852",
+        title: "Title of your publication with pdf and code",
+        authors: "<b>Author 1</b>, Author 2, Author 3, Author 4",
+        description: "description",
         year: "2022",
-        pdf: "https://arxiv.org/pdf/2202.13852",
-        code: "https://github.com/marlin-codes/HGNNs",
+        pdf: " ",
+        code: " ",
+        tag: []
+    },
+    {
+        title: "Title of your publication without pdf or code",
+        authors: "Author 1, <b>Author 2</b>, Author 3, Author 4",
+        description: "description",
+        year: "2022",
+        pdf: "",
+        code: "",
         tag: []
     },
 ]

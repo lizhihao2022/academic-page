@@ -4,21 +4,27 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 const siteConfig = {
     // basic info
-    author: "Zhihao LI",
-    author_cn: "李志豪",
-    domain: "https://lizhihao.me",
-    title: "Zhihao LI | Homepage",
+    author: "Your Name",
+    author_cn: "你的名字", // delete if no
+    domain: "https://yourdomain",
+    title: "Yourname | Homepage",
 
     descriptions: [
-        "Senior Undergraduate",
-        "Harbin Institute of Technology, Shenzhen",
+        "Your title",
+        "Your institute",
+        "Any information"
     ],
 
-    // https://fontawesome.com/icons
+    // https://fontawesome.com/icons for more icons
     socials: [
-        {name: "email", url: "mailto:[180110606@stu.hit.edu.cn]", icon: faEnvelope},
+        {name: "email", url: "mailto:[]", icon: faEnvelope},
         {name: "github", url: "https://github.com/lizhihao2022", icon: faGithub},
-        {name: "google", url: "https://scholar.google.com/citations?hl=en&user=hDVWqfYAAAAJ", icon: faGraduationCap}
+        {name: "google scholar", url: "", icon: faGraduationCap},
+        {name: "twitter", url:"", icon: faTwitter},
+        {name: "weixin", url:"", icon: faWeixin},
+        {name: "zhihu", url:"", icon: faZhihu},
+        {name: "qq", url:"", icon: faQq},
+        {name: "weibo", url:"", icon: faWeibo},
     ],
 
     contents: [
