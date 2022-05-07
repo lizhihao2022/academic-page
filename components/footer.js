@@ -8,10 +8,13 @@ export default function Footer({ footerConfig }) {
 
     return (
         <footer className={styles.footer}>
-            <div>
+            <p className={styles.footer_name}>
                 <FontAwesomeIcon icon={faCopyright} />
                 &nbsp;{year} by {footerConfig.author}
-            </div>
+            </p>
+            <p className={styles.footer_template}>
+                Template from <a href='https://github.com/lizhihao2022/academic-page'>Zhihao LI</a>
+            </p>
         </footer>
     )
 }
