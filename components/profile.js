@@ -37,7 +37,7 @@ const socials = profileConfig.socials.map(social => {
                 <div className={styles.profile_text}>
                     <div className={styles.profile_author}>
                         <a>{profileConfig.author}</a>&nbsp;&nbsp;
-                        <a>({profileConfig.author_cn})</a>
+                        {profileConfig.author_cn && <a>({profileConfig.author_cn})</a>}
                     </div>
                     <div className={styles.profile_description}>
                         {descriptions.map(({ content }) => (
