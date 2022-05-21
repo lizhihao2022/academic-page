@@ -1,7 +1,8 @@
 import styles from "./styles.module.css"
-import Publication from "./publication"
+import Publication from "./publications"
+import Experience from "./experience"
 
-export default function Main({ biography,mainConfig,pubConfig }) {
+export default function Main({ biography,mainConfig,pubConfig,expConfig }) {
     return (
         <main className={styles.main}>
             <div className={styles.chapter} id="biography">
@@ -9,6 +10,7 @@ export default function Main({ biography,mainConfig,pubConfig }) {
                 <div className={styles.md} dangerouslySetInnerHTML={{ __html: biography.contentHtml }} />
             </div>
             <Publication pubConfig={pubConfig} />
+            <Experience expConfig={expConfig} />
         </main>
     )
 }
