@@ -23,6 +23,7 @@ const siteConfig = {
     contents: [
         "biography",
         "publications",
+        "experience",
     ],
 }
 
