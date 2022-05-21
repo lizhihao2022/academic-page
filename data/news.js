@@ -1,6 +1,10 @@
 const news = [
     {
-        date: "2022-5-5",
+        date: "05/22/2022",
+        content: "Add **Experience** chapter and supoort **md** in more parts."
+    },
+    {
+        date: "05/05/2022",
         content: "Brand new self-designed personal homepage online."
     },
 ]

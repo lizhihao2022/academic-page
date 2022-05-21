@@ -129,7 +129,6 @@
 
 .news {
   margin: 0;
-  line-height: 2;
   padding-bottom: 1rem;
 }
 
@@ -141,11 +140,14 @@
 .news_list {
   text-align: left;
   display: block;
+  margin-top: 10px;
 }
 
 .news_item {
   text-align: left;
   display: block;
+  margin-left: 15px;
+  line-height: 0.2;
 }
 
 .news_date {
@@ -155,6 +157,7 @@
 
 .news_content {
   margin-left: 15px;
+  display: inline-block;
 }
 
 .news_content b {
@@ -163,7 +166,7 @@
 
 .main {
   margin: 0;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .main p {
@@ -172,6 +175,7 @@
 
 .chapter {
   border-top: 1px solid #eee;
+  margin-bottom: 10px;
 }
 
 .md a {
@@ -193,10 +197,6 @@
   margin-left: 10px;
 }
 
-.pub_list {
-  line-height: 2;
-}
-
 .pub_author {
   margin-left: 21px;
 }
@@ -207,4 +207,12 @@
 
 .pub_des {
   margin-left: 21px;
+}
+
+.exp_des {
+  display: inline-block;
+}
+
+.exp_des a {
+  text-decoration: underline;
 }

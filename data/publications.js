@@ -1,7 +1,7 @@
 const publications = [
     {
         title: "Title of your publication with pdf and code",
-        authors: "<b>Author 1</b>, Author 2, Author 3, Author 4",
+        authors: "**Author 1**, Author 2, Author 3, Author 4", // You can use md in authors and description
         description: "description",
         year: "2022",
         pdf: " ",
@@ -10,7 +10,7 @@ const publications = [
     },
     {
         title: "Title of your publication without pdf or code",
-        authors: "Author 1, <b>Author 2</b>, Author 3, Author 4",
+        authors: "Author 1, **Author 2**, Author 3, Author 4",
         description: "description",
         year: "2022",
         pdf: "",
