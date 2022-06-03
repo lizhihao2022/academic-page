@@ -12,8 +12,8 @@ export default function Publication({ pubConfig }) {
                     <div className="" key="">
                         <div className={styles.pub_title}>
                             <FontAwesomeIcon icon={faBookmark} />
-                            &nbsp;
-                            [{prefix}]&nbsp;{title}
+                            {prefix && <a>[{prefix}]</a>}
+                            &nbsp;{title}
                             {pdf && <a href={pdf}><FontAwesomeIcon icon={faFilePdf} /></a>}
                             {code && <a href={code}><FontAwesomeIcon icon={faFileCode} /></a>}
                         </div>

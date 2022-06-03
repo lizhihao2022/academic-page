@@ -23,14 +23,14 @@ const socials = profileConfig.socials.map(social => {
 })
 
     return (
-        <div>
-            <div className={styles.profile}>
+        <div className={styles.profile}>
+            <div className={styles.profile_all}>
                 <div className={styles.profile_img}>
                     <Image
                         priority
                         src="/images/profile.jpg"
-                        height={166}
-                        width={166}
+                        height={188}
+                        width={188}
                         alt={profileConfig.author}
                     />
                 </div>

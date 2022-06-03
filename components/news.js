@@ -9,8 +9,13 @@ export default function News({ newsConfig }) {
             <div className={styles.news_list}>
                 {newsConfig.news.map(({ date,content }) => (
                     <div className={styles.news_item} key="">
-                        <FontAwesomeIcon icon={faMeteor} />
-                        &nbsp;<b>{date}</b>&nbsp;&nbsp;
+                        <div className={styles.news_date}>
+                            <p>
+                                <FontAwesomeIcon icon={faMeteor} />
+                                &nbsp;
+                                {date}
+                            </p>
+                        </div>
                         <div className={styles.news_content} dangerouslySetInnerHTML={{ __html: content }} />
                     </div>
                 ))}
