@@ -40,6 +40,8 @@
   background-color: white;
   border-top: 1px solid rgb(238, 238, 238);
   bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footer_name {
@@ -106,6 +108,8 @@
 
 .news {
   margin: 0;
+  margin-left: 20px;
+  margin-right: 20px;
   padding-bottom: 1rem;
 }
 
@@ -151,6 +155,8 @@
 .chapter {
   border-top: 1px solid #eee;
   margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .md a {
@@ -166,10 +172,22 @@
 .pub_title {
   font-size: 20px;
   font-weight: 600;
+  display: flex;
 }
 
 .pub_title a {
   margin-left: 10px;
+}
+
+.pub_icon {
+  float: left;
+  display: inline-flexbox;
+}
+
+.pub_prefix {
+  float: left;
+  display: inline-flexbox;
+  /* margin-left: 5px; */
 }
 
 .pub_author {
@@ -184,8 +202,19 @@
   margin-left: 21px;
 }
 
-.exp_des {
-  display: inline-block;
+.exp_item {
+  display: flex;
+}
+
+.exp_icon {
+  display: inline-flexbox;
+  float: left;
+}
+
+.exp_info {
+  float: left;
+  display: inline-flexbox;
+  margin-left: 10px;
 }
 
 .exp_des a {

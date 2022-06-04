@@ -11,11 +11,15 @@ export default function Publication({ pubConfig }) {
                 {pubConfig.publications.map(({ prefix,title,authors,description,year,pdf,code }) => (
                     <div className="" key="">
                         <div className={styles.pub_title}>
-                            <FontAwesomeIcon icon={faBookmark} />
-                            {prefix && <a>[{prefix}]</a>}
-                            &nbsp;{title}
-                            {pdf && <a href={pdf}><FontAwesomeIcon icon={faFilePdf} /></a>}
-                            {code && <a href={code}><FontAwesomeIcon icon={faFileCode} /></a>}
+                            <div className={styles.pub_icon}>
+                                <FontAwesomeIcon icon={faBookmark} />
+                            </div>
+                            <div className={styles.pub_prefix}>
+                                {prefix && <a>[{prefix}]</a>}
+                                &nbsp;{title}
+                                {pdf && <a href={pdf}><FontAwesomeIcon icon={faFilePdf} /></a>}
+                                {code && <a href={code}><FontAwesomeIcon icon={faFileCode} /></a>}
+                            </div>
                         </div>
                         <div className={styles.pub_author} dangerouslySetInnerHTML={{ __html: authors }} />
                         <div className={styles.pub_des} dangerouslySetInnerHTML={{ __html: description }} />
