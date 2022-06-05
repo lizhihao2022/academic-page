@@ -9,6 +9,7 @@ export default function PageHead({ pageHeadConfig }) {
             <link rel='icon' href='/favicon.ico' />
             <meta name='description' content='academic homepage'/>
             <meta name='author' content={pageHeadConfig.author} />
+            <meta name="google-site-verification" content="azQKssn0P_VEdWOVNjf8ZVrmr98SS34mXrKPEOrDjdU" />
             <title>{pageHeadConfig.title}</title>
         </Head>
     )
