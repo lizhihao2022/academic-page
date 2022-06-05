@@ -7,7 +7,7 @@ const siteConfig = {
     author: "Zhihao LI",
     author_cn: "李志豪",
     domain: "https://lizhihao.me",
-    title: "Zhihao LI | Homepage",
+    title: "Zhihao LI (李志豪) | Homepage",
     descriptions: [
         "Senior Undergraduate",
         "Harbin Institute of Technology, Shenzhen",
