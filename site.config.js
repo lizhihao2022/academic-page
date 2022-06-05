@@ -3,20 +3,12 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 const siteConfig = {
-<<<<<<< HEAD
     // basic info
     author: "Your Name",
     author_cn: "你的名字", // delete if no
     domain: "https://yourdomain",
     title: "Yourname | Homepage",
 
-=======
-    // basic site info
-    author: "Zhihao LI",
-    author_cn: "李志豪",
-    domain: "https://lizhihao.me",
-    title: "Zhihao LI (李志豪) | Homepage",
->>>>>>> 71f56c44fa01a012298b852f762a63ed65a5644b
     descriptions: [
         "Your title",
         "Your institute",
